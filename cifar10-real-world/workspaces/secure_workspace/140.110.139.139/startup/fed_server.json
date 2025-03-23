@@ -4,11 +4,11 @@
     {
       "name": "secure_project",
       "service": {
-        "target": "140.110.139.139:443",
+        "target": "140.110.139.139:80",
         "scheme": "grpc"
       },
       "admin_host": "140.110.139.139",
-      "admin_port": 80,
+      "admin_port": 8103,
       "ssl_private_key": "server.key",
       "ssl_cert": "server.crt",
       "ssl_root_cert": "rootCA.pem"
@@ -17,7 +17,7 @@
   "overseer_agent": {
     "path": "nvflare.ha.dummy_overseer_agent.DummyOverseerAgent",
     "args": {
-      "sp_end_point": "140.110.139.139:443:80",
+      "sp_end_point": "140.110.139.139:80:8103",
       "heartbeat_interval": 6
     }
   }

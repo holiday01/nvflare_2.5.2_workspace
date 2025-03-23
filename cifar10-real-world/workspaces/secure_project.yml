@@ -12,8 +12,8 @@ participants:
   - name: 140.110.139.139
     type: server
     org: nvidia
-    fed_learn_port: 443
-    admin_port: 80
+    fed_learn_port: 80
+    admin_port: 8103
   - name: site-1
     type: client
     org: nvidia
@@ -59,7 +59,7 @@ builders:
         # if overseer_exists is false, args in this section will be used.
         overseer_exists: false
         args:
-           sp_end_point: 140.110.139.139:443:80
+           sp_end_point: 140.110.139.139:80:8103
            heartbeat_interval: 6
   - path: nvflare.lighter.impl.he.HEBuilder
     args:

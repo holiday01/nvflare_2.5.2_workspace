@@ -16,7 +16,7 @@
   "overseer_agent": {
     "path": "nvflare.ha.dummy_overseer_agent.DummyOverseerAgent",
     "args": {
-      "sp_end_point": "140.110.139.139:443:80",
+      "sp_end_point": "140.110.139.139:80:8103",
       "heartbeat_interval": 6
     }
   }
