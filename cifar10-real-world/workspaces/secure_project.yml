@@ -59,7 +59,7 @@ builders:
         # if overseer_exists is false, args in this section will be used.
         overseer_exists: false
         args:
-           sp_end_point: 140.110.139.139:8102:8103
+           sp_end_point: 140.110.139.139:443:80
            heartbeat_interval: 6
   - path: nvflare.lighter.impl.he.HEBuilder
     args:
