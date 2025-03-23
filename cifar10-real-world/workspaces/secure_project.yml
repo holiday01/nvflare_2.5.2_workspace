@@ -12,8 +12,8 @@ participants:
   - name: 140.110.139.139
     type: server
     org: nvidia
-    fed_learn_port: 8102
-    admin_port: 8103
+    fed_learn_port: 443
+    admin_port: 80
   - name: site-1
     type: client
     org: nvidia
