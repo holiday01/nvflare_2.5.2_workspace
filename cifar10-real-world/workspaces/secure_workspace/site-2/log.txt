@@ -1,0 +1,207 @@
+2025-03-23 06:30:03,945 - CoreCell - INFO - site-2: created backbone external connector to grpc://140.110.139.139:8102
+2025-03-23 06:30:03,945 - ConnectorManager - INFO - 214: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-23 06:30:03,946 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:64454] is starting
+2025-03-23 06:30:04,447 - CoreCell - INFO - site-2: created backbone internal listener for tcp://localhost:64454
+2025-03-23 06:30:04,448 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 ACTIVE grpc://140.110.139.139:8102] is starting
+2025-03-23 06:30:04,449 - FederatedClient - INFO - Wait for engine to be created.
+2025-03-23 06:30:04,455 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:04,455 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:04,462 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 Not Connected] is closed PID: 214
+2025-03-23 06:30:04,462 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00002 Not Connected]
+2025-03-23 06:30:05,464 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:05,464 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:06,246 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 Not Connected] is closed PID: 214
+2025-03-23 06:30:06,247 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00003 Not Connected]
+2025-03-23 06:30:07,542 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:07,543 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:08,249 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:08,249 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00004 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:08,254 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00004 Not Connected] is closed PID: 214
+2025-03-23 06:30:08,254 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00004 Not Connected]
+2025-03-23 06:30:09,545 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:09,546 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:11,548 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:11,548 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:12,256 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:12,256 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00005 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:12,260 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00005 Not Connected] is closed PID: 214
+2025-03-23 06:30:12,261 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00005 Not Connected]
+2025-03-23 06:30:12,261 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 8 seconds
+2025-03-23 06:30:13,551 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:13,551 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:15,554 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:15,554 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:17,557 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:17,557 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:19,560 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:19,560 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:20,263 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:20,263 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00006 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:20,266 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00006 Not Connected] is closed PID: 214
+2025-03-23 06:30:20,266 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00006 Not Connected]
+2025-03-23 06:30:20,266 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:30:21,562 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:21,563 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:23,565 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:23,566 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:25,568 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:25,568 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:27,571 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:27,571 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:29,574 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:29,574 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:30,269 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:30,270 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00007 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:30,274 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00007 Not Connected] is closed PID: 214
+2025-03-23 06:30:30,274 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00007 Not Connected]
+2025-03-23 06:30:30,274 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:30:31,577 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:31,577 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:33,580 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:33,580 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:35,582 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:35,583 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:37,585 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:37,586 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:39,588 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:39,588 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:40,278 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:40,278 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00008 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:40,280 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00008 Not Connected] is closed PID: 214
+2025-03-23 06:30:40,281 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00008 Not Connected]
+2025-03-23 06:30:40,281 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:30:41,591 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:41,591 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:43,593 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:43,594 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:45,594 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:45,594 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:47,597 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:47,597 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:49,600 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:49,600 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:50,284 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:30:50,285 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00009 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:30:50,288 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00009 Not Connected] is closed PID: 214
+2025-03-23 06:30:50,288 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00009 Not Connected]
+2025-03-23 06:30:50,288 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:30:51,603 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:51,603 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:53,605 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:53,606 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:55,608 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:55,609 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:57,611 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:57,611 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:30:59,614 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:30:59,614 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:00,292 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:31:00,292 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00010 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:31:00,295 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00010 Not Connected] is closed PID: 214
+2025-03-23 06:31:00,295 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00010 Not Connected]
+2025-03-23 06:31:00,295 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:31:01,617 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:01,617 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:03,620 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:03,620 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:05,623 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:05,623 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:07,625 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:07,626 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:09,628 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:09,628 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:10,298 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:31:10,299 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00011 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:31:10,301 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00011 Not Connected] is closed PID: 214
+2025-03-23 06:31:10,302 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00011 Not Connected]
+2025-03-23 06:31:10,302 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:31:11,631 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:11,631 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:13,634 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:13,634 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:15,636 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:15,637 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:17,639 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:17,639 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:19,642 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:19,642 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:20,305 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:31:20,305 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00012 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:31:20,308 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00012 Not Connected] is closed PID: 214
+2025-03-23 06:31:20,308 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00012 Not Connected]
+2025-03-23 06:31:20,308 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:31:21,645 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:21,645 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:23,647 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:23,648 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:25,650 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:25,650 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:27,653 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:27,653 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:29,656 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:29,656 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:30,311 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:31:30,311 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00013 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:31:30,314 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00013 Not Connected] is closed PID: 214
+2025-03-23 06:31:30,315 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00013 Not Connected]
+2025-03-23 06:31:30,315 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:31:31,658 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:31,659 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:33,662 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:33,662 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:35,664 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:35,665 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:37,667 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:37,667 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:39,670 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:39,670 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:40,318 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:31:40,318 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00014 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:31:40,321 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00014 Not Connected] is closed PID: 214
+2025-03-23 06:31:40,321 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00014 Not Connected]
+2025-03-23 06:31:40,321 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:31:41,673 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:41,673 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:43,676 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:43,676 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:45,679 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:45,679 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:47,681 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:47,682 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:49,684 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:49,684 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:50,324 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:31:50,324 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00015 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:31:50,326 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00015 Not Connected] is closed PID: 214
+2025-03-23 06:31:50,327 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00015 Not Connected]
+2025-03-23 06:31:50,327 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:31:51,687 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:51,687 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:53,690 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:53,690 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:55,692 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:55,693 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:57,695 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:57,695 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:31:59,698 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:31:59,698 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:32:00,330 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:32:00,330 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00016 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:32:00,333 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00016 Not Connected] is closed PID: 214
+2025-03-23 06:32:00,333 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00016 Not Connected]
+2025-03-23 06:32:00,333 - nvflare.fuel.f3.sfm.conn_manager - INFO - Retrying [CH00001 ACTIVE grpc://140.110.139.139:8102] in 10 seconds
+2025-03-23 06:32:01,701 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:32:01,701 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:32:03,704 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:32:03,704 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:32:05,706 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:32:05,707 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:32:07,709 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:32:07,710 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:32:09,712 - CoreCell - WARNING - [ME=site-2 O=? D=server F=? T=? CH=task TP=register SCH=? STP=? SEQ=?] no connection to server
+2025-03-23 06:32:09,712 - CoreCell - ERROR - [ME=site-2 O=site-2 D=server F=site-2 T=server CH=task TP=register SCH=? STP=? SEQ=?] cannot send to 'server': target_unreachable
+2025-03-23 06:32:10,336 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - created secure channel at 140.110.139.139:8102
+2025-03-23 06:32:10,337 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00017 N/A => 140.110.139.139:8102] is created: PID: 214
+2025-03-23 06:32:11,719 - FederatedClient - INFO - Successfully registered client:site-2 for project secure_project. Token:185cd1bd-6cb2-44ab-a44e-4e776f54a6a9 SSID:ebc6125d-0a56-4688-9b08-355fe9e4d61a
+2025-03-23 06:32:22,739 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00017 Not Connected] is closed PID: 214
+2025-03-23 06:32:22,739 - nvflare.fuel.f3.drivers.grpc_driver.GrpcDriver - INFO - CLIENT: finished connection [CN00017 Not Connected]

@@ -1,0 +1,131 @@
+2025-03-23 06:30:03,597 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-23 06:30:03,688 - CoreCell - INFO - server: creating listener on grpc://0:8102
+2025-03-23 06:30:03,718 - CoreCell - INFO - server: created backbone external listener for grpc://0:8102
+2025-03-23 06:30:03,719 - ConnectorManager - INFO - 230: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-23 06:30:03,720 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:13480] is starting
+2025-03-23 06:30:04,221 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:13480
+2025-03-23 06:30:04,222 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2025-03-23 06:30:04,230 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-23 06:30:04,236 - nvflare.fuel.f3.drivers.grpc_driver.Server - INFO - added secure port at 0.0.0.0:8102
+2025-03-23 06:30:04,236 - MPM - ERROR - Execute exception: OSError: [Errno 98] Address already in use
+2025-03-23 06:30:04,238 - MPM - ERROR - Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/nvflare/fuel/f3/mpm.py", line 154, in run
+    rc = main_func(**kwargs)
+  File "/usr/local/lib/python3.8/site-packages/nvflare/private/fed/app/server/server_train.py", line 113, in main
+    admin_server = create_admin_server(
+  File "/usr/local/lib/python3.8/site-packages/nvflare/private/fed/app/utils.py", line 81, in create_admin_server
+    admin_server = FedAdminServer(
+  File "/usr/local/lib/python3.8/site-packages/nvflare/private/fed/server/admin.py", line 175, in __init__
+    AdminServer.__init__(
+  File "/usr/local/lib/python3.8/site-packages/nvflare/fuel/hci/server/hci.py", line 180, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+
+2025-03-23 06:30:04,393 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 0.0.0.0:8102 <= ipv4:140.110.139.139:55566 SSL site-3] is created: PID: 230
+2025-03-23 06:30:04,766 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 0.0.0.0:8102 <= ipv4:140.110.139.139:55576 SSL site-8] is created: PID: 230
+2025-03-23 06:30:05,471 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00004 0.0.0.0:8102 <= ipv4:140.110.139.139:55592 SSL site-2] is created: PID: 230
+2025-03-23 06:30:05,517 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00005 0.0.0.0:8102 <= ipv4:140.110.139.139:55596 SSL site-1] is created: PID: 230
+2025-03-23 06:30:06,245 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00005 Not Connected] is closed PID: 230
+2025-03-23 06:30:06,247 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 Not Connected] is closed PID: 230
+2025-03-23 06:30:06,247 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00004 Not Connected] is closed PID: 230
+2025-03-23 06:30:06,247 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 Not Connected] is closed PID: 230
+2025-03-23 06:30:06,248 - MPM - WARNING - #### MPM: still running thread Thread-3
+2025-03-23 06:30:06,249 - MPM - WARNING - #### MPM: still running thread Thread-4
+2025-03-23 06:30:06,249 - MPM - WARNING - #### MPM: still running thread Thread-5
+2025-03-23 06:30:06,249 - MPM - INFO - MPM: Good Bye!
+2025-03-23 06:30:08,486 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-23 06:30:08,575 - CoreCell - INFO - server: creating listener on grpc://0:8102
+2025-03-23 06:30:08,598 - CoreCell - INFO - server: created backbone external listener for grpc://0:8102
+2025-03-23 06:30:08,598 - ConnectorManager - INFO - 336: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-23 06:30:08,599 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:42343] is starting
+2025-03-23 06:30:09,100 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:42343
+2025-03-23 06:30:09,101 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2025-03-23 06:30:09,110 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-23 06:30:09,110 - nvflare.fuel.f3.drivers.grpc_driver.Server - INFO - added secure port at 0.0.0.0:8102
+2025-03-23 06:30:09,117 - MPM - ERROR - Execute exception: OSError: [Errno 98] Address already in use
+2025-03-23 06:30:09,118 - MPM - ERROR - Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/nvflare/fuel/f3/mpm.py", line 154, in run
+    rc = main_func(**kwargs)
+  File "/usr/local/lib/python3.8/site-packages/nvflare/private/fed/app/server/server_train.py", line 113, in main
+    admin_server = create_admin_server(
+  File "/usr/local/lib/python3.8/site-packages/nvflare/private/fed/app/utils.py", line 81, in create_admin_server
+    admin_server = FedAdminServer(
+  File "/usr/local/lib/python3.8/site-packages/nvflare/private/fed/server/admin.py", line 175, in __init__
+    AdminServer.__init__(
+  File "/usr/local/lib/python3.8/site-packages/nvflare/fuel/hci/server/hci.py", line 180, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.8/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+
+2025-03-23 06:30:10,080 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 0.0.0.0:8102 <= ipv4:140.110.139.139:44700 SSL site-7] is created: PID: 336
+2025-03-23 06:30:11,124 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 Not Connected] is closed PID: 336
+2025-03-23 06:30:11,125 - MPM - WARNING - #### MPM: still running thread Thread-3
+2025-03-23 06:30:11,126 - MPM - WARNING - #### MPM: still running thread Thread-4
+2025-03-23 06:30:11,126 - MPM - WARNING - #### MPM: still running thread Thread-5
+2025-03-23 06:30:11,126 - MPM - INFO - MPM: Good Bye!
+2025-03-23 06:32:03,979 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-23 06:32:04,068 - CoreCell - INFO - server: creating listener on grpc://0:8102
+2025-03-23 06:32:04,092 - CoreCell - INFO - server: created backbone external listener for grpc://0:8102
+2025-03-23 06:32:04,092 - ConnectorManager - INFO - 15: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-23 06:32:04,093 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:10731] is starting
+2025-03-23 06:32:04,594 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:10731
+2025-03-23 06:32:04,594 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:8102] is starting
+2025-03-23 06:32:04,602 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-23 06:32:04,607 - nvflare.fuel.f3.drivers.grpc_driver.Server - INFO - added secure port at 0.0.0.0:8102
+2025-03-23 06:32:04,610 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server 140.110.139.139 on Port 8103
+2025-03-23 06:32:04,610 - root - INFO - Server started
+2025-03-23 06:32:08,193 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 0.0.0.0:8102 <= ipv4:140.110.139.139:55542 SSL site-8] is created: PID: 15
+2025-03-23 06:32:08,198 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 0.0.0.0:8102 <= ipv4:140.110.139.139:55572 SSL site-2] is created: PID: 15
+2025-03-23 06:32:08,200 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00004 0.0.0.0:8102 <= ipv4:140.110.139.139:55556 SSL site-1] is created: PID: 15
+2025-03-23 06:32:08,201 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00005 0.0.0.0:8102 <= ipv4:140.110.139.139:55574 SSL site-7] is created: PID: 15
+2025-03-23 06:32:08,204 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00006 0.0.0.0:8102 <= ipv4:140.110.139.139:55586 SSL site-3] is created: PID: 15
+2025-03-23 06:32:10,339 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00007 0.0.0.0:8102 <= ipv4:140.110.139.139:34108 SSL site-8] is created: PID: 15
+2025-03-23 06:32:10,340 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00008 0.0.0.0:8102 <= ipv4:140.110.139.139:34094 SSL site-1] is created: PID: 15
+2025-03-23 06:32:10,341 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00002 is evicted for CN00007 from endpoint site-8 for exceeding limit 1
+2025-03-23 06:32:10,343 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00004 is evicted for CN00008 from endpoint site-1 for exceeding limit 1
+2025-03-23 06:32:10,345 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00009 0.0.0.0:8102 <= ipv4:140.110.139.139:34118 SSL site-2] is created: PID: 15
+2025-03-23 06:32:10,347 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00003 is evicted for CN00009 from endpoint site-2 for exceeding limit 1
+2025-03-23 06:32:10,604 - ServerState - INFO - Got the primary sp: 140.110.139.139 fl_port: 8102 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
+2025-03-23 06:32:10,985 - ClientManager - INFO - Client: New client site-8@192.168.0.167 joined. Sent token: c29faa6f-aa70-41f6-ac8b-e5e073c3b543.  Total clients: 1
+2025-03-23 06:32:11,332 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00010 0.0.0.0:8102 <= ipv4:140.110.139.139:34122 SSL site-3] is created: PID: 15
+2025-03-23 06:32:11,334 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00006 is evicted for CN00010 from endpoint site-3 for exceeding limit 1
+2025-03-23 06:32:11,717 - ClientManager - INFO - Client: New client site-2@192.168.0.167 joined. Sent token: 185cd1bd-6cb2-44ab-a44e-4e776f54a6a9.  Total clients: 2
+2025-03-23 06:32:11,759 - ClientManager - INFO - Client: New client site-1@192.168.0.167 joined. Sent token: 819ced4c-2d68-4f7f-bcfe-8599ef1dadc1.  Total clients: 3
+2025-03-23 06:32:12,116 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00006 Not Connected] is closed PID: 15
+2025-03-23 06:32:12,135 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00002 Not Connected] is closed PID: 15
+2025-03-23 06:32:12,206 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00003 Not Connected] is closed PID: 15
+2025-03-23 06:32:12,227 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00004 Not Connected] is closed PID: 15
+2025-03-23 06:32:12,476 - ClientManager - INFO - Re-activate the client:site-7 with token: edc1315a-288d-4f33-ae88-a81ad1b4be1c
+2025-03-23 06:32:12,901 - ClientManager - INFO - Client: New client site-3@192.168.0.167 joined. Sent token: 48097f04-e965-4e57-a3b3-5609907db367.  Total clients: 5
+2025-03-23 06:32:13,126 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00011 0.0.0.0:8102 <= ipv4:140.110.139.139:34132 SSL site-4] is created: PID: 15
+2025-03-23 06:32:13,206 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00012 0.0.0.0:8102 <= ipv4:140.110.139.139:34142 SSL site-7] is created: PID: 15
+2025-03-23 06:32:13,207 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00005 is evicted for CN00012 from endpoint site-7 for exceeding limit 1
+2025-03-23 06:32:13,502 - ClientManager - INFO - Client: New client site-4@192.168.0.167 joined. Sent token: 7fe810e2-1b0d-463a-b549-da2edc1adcfc.  Total clients: 6
+2025-03-23 06:32:14,323 - ClientManager - INFO - Client: site-7 already registered. Re-login the client with a new token.
+2025-03-23 06:32:14,323 - ClientManager - INFO - Client: New client site-7@192.168.0.167 joined. Sent token: 8f461cde-6320-48ea-b21c-40273dd98fb0.  Total clients: 6
+2025-03-23 06:32:22,130 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00013 0.0.0.0:8102 <= ipv4:140.110.139.139:46662 SSL site-3] is created: PID: 15
+2025-03-23 06:32:22,132 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00010 is evicted for CN00013 from endpoint site-3 for exceeding limit 1
+2025-03-23 06:32:22,146 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00014 0.0.0.0:8102 <= ipv4:140.110.139.139:46672 SSL site-8] is created: PID: 15
+2025-03-23 06:32:22,147 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00007 is evicted for CN00014 from endpoint site-8 for exceeding limit 1
+2025-03-23 06:32:22,218 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00015 0.0.0.0:8102 <= ipv4:140.110.139.139:46680 SSL site-2] is created: PID: 15
+2025-03-23 06:32:22,219 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00009 is evicted for CN00015 from endpoint site-2 for exceeding limit 1
+2025-03-23 06:32:22,237 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00016 0.0.0.0:8102 <= ipv4:140.110.139.139:46692 SSL site-1] is created: PID: 15
+2025-03-23 06:32:22,239 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00008 is evicted for CN00016 from endpoint site-1 for exceeding limit 1
+2025-03-23 06:32:22,490 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00005 Not Connected] is closed PID: 15
+2025-03-23 06:32:22,738 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00009 Not Connected] is closed PID: 15
+2025-03-23 06:32:22,778 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00008 Not Connected] is closed PID: 15
+2025-03-23 06:32:23,500 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00017 0.0.0.0:8102 <= ipv4:140.110.139.139:46704 SSL site-7] is created: PID: 15
+2025-03-23 06:32:23,501 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00012 is evicted for CN00017 from endpoint site-7 for exceeding limit 1
+2025-03-23 06:32:23,749 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00018 0.0.0.0:8102 <= ipv4:140.110.139.139:46706 SSL site-2] is created: PID: 15
+2025-03-23 06:32:23,750 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00015 is evicted for CN00018 from endpoint site-2 for exceeding limit 1
+2025-03-23 06:32:23,787 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00019 0.0.0.0:8102 <= ipv4:140.110.139.139:46710 SSL site-1] is created: PID: 15
+2025-03-23 06:32:23,788 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00016 is evicted for CN00019 from endpoint site-1 for exceeding limit 1
+2025-03-23 06:32:23,922 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00010 Not Connected] is closed PID: 15
+2025-03-23 06:32:24,933 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00020 0.0.0.0:8102 <= ipv4:140.110.139.139:46720 SSL site-3] is created: PID: 15
+2025-03-23 06:32:24,934 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00013 is evicted for CN00020 from endpoint site-3 for exceeding limit 1
+2025-03-23 06:32:25,346 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00012 Not Connected] is closed PID: 15
+2025-03-23 06:32:26,358 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connection [CN00021 0.0.0.0:8102 <= ipv4:140.110.139.139:46728 SSL site-7] is created: PID: 15
+2025-03-23 06:32:26,360 - nvflare.fuel.f3.sfm.sfm_endpoint - INFO - Connection CN00017 is evicted for CN00021 from endpoint site-7 for exceeding limit 1
