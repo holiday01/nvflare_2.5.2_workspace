@@ -36,6 +36,6 @@ then
       echo "Only on-prem or azure or aws is currently supported."
   esac
 else
-  $DIR/sub_start.sh 
+  $DIR/sub_start.sh &
 fi
   

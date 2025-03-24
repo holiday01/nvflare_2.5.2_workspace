@@ -1,0 +1,141 @@
+2025-03-24 08:31:21,350 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-24 08:31:21,440 - CoreCell - INFO - server: creating listener on grpc://0:80
+2025-03-24 08:31:21,473 - CoreCell - INFO - server: created backbone external listener for grpc://0:80
+2025-03-24 08:31:21,473 - ConnectorManager - INFO - 2458290: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-24 08:31:21,474 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:12186] is starting
+2025-03-24 08:31:21,974 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:12186
+2025-03-24 08:31:21,975 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:80] is starting
+2025-03-24 08:31:21,977 - FederatedServer - INFO - max_reg_duration=60.0
+2025-03-24 08:31:21,983 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-24 08:31:21,988 - MPM - ERROR - Execute exception: PermissionError: [Errno 13] Permission denied
+2025-03-24 08:31:21,989 - MPM - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/f3/mpm.py", line 154, in run
+    rc = main_func(**kwargs)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/server/server_train.py", line 113, in main
+    admin_server = create_admin_server(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/utils.py", line 81, in create_admin_server
+    admin_server = FedAdminServer(
+                   ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/server/admin.py", line 175, in __init__
+    AdminServer.__init__(
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/hci/server/hci.py", line 180, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.12/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+PermissionError: [Errno 13] Permission denied
+
+2025-03-24 08:31:23,978 - MPM - WARNING - #### MPM: still running thread Thread-3 (client_cleanup)
+2025-03-24 08:31:23,978 - MPM - WARNING - #### MPM: still running thread Thread-5 (_start_job_runner)
+2025-03-24 08:31:23,978 - MPM - WARNING - #### MPM: still running thread Thread-6 (_job_complete_process)
+2025-03-24 08:31:23,979 - MPM - INFO - MPM: Good Bye!
+2025-03-24 08:31:26,383 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-24 08:31:26,485 - CoreCell - INFO - server: creating listener on grpc://0:80
+2025-03-24 08:31:26,514 - CoreCell - INFO - server: created backbone external listener for grpc://0:80
+2025-03-24 08:31:26,515 - ConnectorManager - INFO - 2458387: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-24 08:31:26,515 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:34149] is starting
+2025-03-24 08:31:27,016 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:34149
+2025-03-24 08:31:27,016 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:80] is starting
+2025-03-24 08:31:27,018 - FederatedServer - INFO - max_reg_duration=60.0
+2025-03-24 08:31:27,025 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-24 08:31:27,030 - MPM - ERROR - Execute exception: PermissionError: [Errno 13] Permission denied
+2025-03-24 08:31:27,031 - MPM - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/f3/mpm.py", line 154, in run
+    rc = main_func(**kwargs)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/server/server_train.py", line 113, in main
+    admin_server = create_admin_server(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/utils.py", line 81, in create_admin_server
+    admin_server = FedAdminServer(
+                   ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/server/admin.py", line 175, in __init__
+    AdminServer.__init__(
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/hci/server/hci.py", line 180, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.12/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+PermissionError: [Errno 13] Permission denied
+
+2025-03-24 08:31:29,019 - MPM - WARNING - #### MPM: still running thread Thread-3 (client_cleanup)
+2025-03-24 08:31:29,020 - MPM - WARNING - #### MPM: still running thread Thread-5 (_start_job_runner)
+2025-03-24 08:31:29,020 - MPM - WARNING - #### MPM: still running thread Thread-6 (_job_complete_process)
+2025-03-24 08:31:29,020 - MPM - INFO - MPM: Good Bye!
+2025-03-24 08:31:31,394 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-24 08:31:31,496 - CoreCell - INFO - server: creating listener on grpc://0:80
+2025-03-24 08:31:31,526 - CoreCell - INFO - server: created backbone external listener for grpc://0:80
+2025-03-24 08:31:31,526 - ConnectorManager - INFO - 2458484: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-24 08:31:31,526 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:54562] is starting
+2025-03-24 08:31:32,027 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:54562
+2025-03-24 08:31:32,027 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:80] is starting
+2025-03-24 08:31:32,030 - FederatedServer - INFO - max_reg_duration=60.0
+2025-03-24 08:31:32,036 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-24 08:31:32,041 - MPM - ERROR - Execute exception: PermissionError: [Errno 13] Permission denied
+2025-03-24 08:31:32,043 - MPM - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/f3/mpm.py", line 154, in run
+    rc = main_func(**kwargs)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/server/server_train.py", line 113, in main
+    admin_server = create_admin_server(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/utils.py", line 81, in create_admin_server
+    admin_server = FedAdminServer(
+                   ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/server/admin.py", line 175, in __init__
+    AdminServer.__init__(
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/hci/server/hci.py", line 180, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.12/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+PermissionError: [Errno 13] Permission denied
+
+2025-03-24 08:31:34,031 - MPM - WARNING - #### MPM: still running thread Thread-3 (client_cleanup)
+2025-03-24 08:31:34,031 - MPM - WARNING - #### MPM: still running thread Thread-5 (_start_job_runner)
+2025-03-24 08:31:34,031 - MPM - WARNING - #### MPM: still running thread Thread-6 (_job_complete_process)
+2025-03-24 08:31:34,031 - MPM - INFO - MPM: Good Bye!
+2025-03-24 08:31:36,395 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-24 08:31:36,484 - CoreCell - INFO - server: creating listener on grpc://0:80
+2025-03-24 08:31:36,514 - CoreCell - INFO - server: created backbone external listener for grpc://0:80
+2025-03-24 08:31:36,514 - ConnectorManager - INFO - 2458581: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-24 08:31:36,515 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:55406] is starting
+2025-03-24 08:31:37,016 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:55406
+2025-03-24 08:31:37,016 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:80] is starting
+2025-03-24 08:31:37,018 - FederatedServer - INFO - max_reg_duration=60.0
+2025-03-24 08:31:37,024 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-24 08:31:37,029 - MPM - ERROR - Execute exception: PermissionError: [Errno 13] Permission denied
+2025-03-24 08:31:37,030 - MPM - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/f3/mpm.py", line 154, in run
+    rc = main_func(**kwargs)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/server/server_train.py", line 113, in main
+    admin_server = create_admin_server(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/app/utils.py", line 81, in create_admin_server
+    admin_server = FedAdminServer(
+                   ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/private/fed/server/admin.py", line 175, in __init__
+    AdminServer.__init__(
+  File "/home/ubuntu/nv/lib/python3.12/site-packages/nvflare/fuel/hci/server/hci.py", line 180, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.12/socketserver.py", line 473, in server_bind
+    self.socket.bind(self.server_address)
+PermissionError: [Errno 13] Permission denied
+
+2025-03-24 08:31:39,019 - MPM - WARNING - #### MPM: still running thread Thread-3 (client_cleanup)
+2025-03-24 08:31:39,019 - MPM - WARNING - #### MPM: still running thread Thread-5 (_start_job_runner)
+2025-03-24 08:31:39,019 - MPM - WARNING - #### MPM: still running thread Thread-6 (_job_complete_process)
+2025-03-24 08:31:39,020 - MPM - INFO - MPM: Good Bye!
+2025-03-24 08:33:02,329 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - server heartbeat timeout set to 600
+2025-03-24 08:33:02,422 - CoreCell - INFO - server: creating listener on grpc://0:80
+2025-03-24 08:33:02,455 - CoreCell - INFO - server: created backbone external listener for grpc://0:80
+2025-03-24 08:33:02,455 - ConnectorManager - INFO - 2458705: Try start_listener Listener resources: {'secure': False, 'host': 'localhost'}
+2025-03-24 08:33:02,456 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00002 PASSIVE tcp://0:60183] is starting
+2025-03-24 08:33:02,957 - CoreCell - INFO - server: created backbone internal listener for tcp://localhost:60183
+2025-03-24 08:33:02,957 - nvflare.fuel.f3.sfm.conn_manager - INFO - Connector [CH00001 PASSIVE grpc://0:80] is starting
+2025-03-24 08:33:02,960 - FederatedServer - INFO - max_reg_duration=60.0
+2025-03-24 08:33:02,966 - nvflare.private.fed.app.deployer.server_deployer.ServerDeployer - INFO - deployed FLARE Server.
+2025-03-24 08:33:02,967 - nvflare.fuel.f3.drivers.grpc_driver.Server - INFO - added secure port at 0.0.0.0:80
+2025-03-24 08:33:02,971 - nvflare.fuel.hci.server.hci - INFO - Starting Admin Server 140.110.139.139 on Port 443
+2025-03-24 08:33:02,972 - root - INFO - Server started
+2025-03-24 08:33:08,966 - ServerState - INFO - Got the primary sp: 140.110.139.139 fl_port: 80 SSID: ebc6125d-0a56-4688-9b08-355fe9e4d61a. Turning to hot.
